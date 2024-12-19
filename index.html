@@ -32,6 +32,13 @@
         <p>Created by: Misch Tugade</p>
     </div>
 
-    <script src="script.js"></script>
+ <script>
+        const hamburger = document.getElementById('hamburger');
+const navigation = document.getElementById('navigation');
+
+hamburger.addEventListener('click', () => {
+    navigation.classList.toggle('show');
+});
+    </script>
 </body>
 </html>
